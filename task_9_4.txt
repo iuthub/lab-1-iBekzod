@@ -1,0 +1,5 @@
+21:46:20.156000 == Info:   Trying 93.184.216.34...
+21:46:20.156000 == Info: TCP_NODELAY set
+21:46:20.468000 == Info: Connected to www.example.com (93.184.216.34) port 443 (#0)
+21:46:20.468000 == Info: OpenSSL was built without SSLv3 support
+21:46:20.468000 == Info: Closing connection 0

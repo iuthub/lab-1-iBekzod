@@ -1,0 +1,38 @@
+21:24:18.296000 == Info:   Trying 52.72.145.109...
+21:24:18.296000 == Info: TCP_NODELAY set
+21:24:18.328000 == Info: Connected to httpbin.org (52.72.145.109) port 80 (#0)
+21:24:18.328000 => Send header, 78 bytes (0x4e)
+0000: GET /get HTTP/1.1
+0013: Host: httpbin.org
+0026: User-Agent: Mozilla/5.0
+003f: Accept: */*
+004c: 
+21:24:20.093000 <= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+21:24:20.093000 <= Recv header, 25 bytes (0x19)
+0000: Server: gunicorn/19.9.0
+21:24:20.093000 <= Recv header, 37 bytes (0x25)
+0000: Date: Thu, 31 Jan 2019 16:24:19 GMT
+21:24:20.093000 <= Recv header, 32 bytes (0x20)
+0000: Content-Type: application/json
+21:24:20.093000 <= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+21:24:20.093000 <= Recv header, 40 bytes (0x28)
+0000: Access-Control-Allow-Credentials: true
+21:24:20.093000 <= Recv header, 16 bytes (0x10)
+0000: Via: 1.1 vegur
+21:24:20.093000 <= Recv header, 21 bytes (0x15)
+0000: Content-Length: 310
+21:24:20.093000 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+21:24:20.093000 <= Recv header, 8 bytes (0x8)
+0000: Age: 0
+21:24:20.093000 <= Recv header, 2 bytes (0x2)
+0000: 
+21:24:20.093000 <= Recv data, 310 bytes (0x136)
+0000: {.  "args": {}, .  "headers": {.    "Accept": "*/*", .    "Cache
+0040: -Control": "max-stale=0", .    "Connection": "close", .    "Host
+0080: ": "httpbin.org", .    "If-Modified-Since": "Thu, 31 Jan 2019 11
+00c0: :44:39 GMT", .    "User-Agent": "Mozilla/5.0".  }, .  "origin": 
+0100: "194.55.94.179", .  "url": "http://httpbin.org/get".}.
+21:24:20.093000 == Info: Connection #0 to host httpbin.org left intact
